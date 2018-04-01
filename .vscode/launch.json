@@ -6,7 +6,11 @@
           "name": "Launch localhost",
           "type": "chrome",
           "request": "launch",
+<<<<<<< HEAD
           "url": "http://localhost/index.html",
+=======
+          "url": "http://localhost/mypage.html",
+>>>>>>> f12e479e0531cb397b6f7253d44767d0c53f86dd
           "webRoot": "${workspaceFolder}/wwwroot"
       },
       {
