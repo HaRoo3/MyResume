@@ -9,13 +9,8 @@ var CanvasAutoResize = {
   draw: function() {
     //var ctx = document.getElementById('canvas').getContext('2d');
     //var canvasContainer = document.getElementById('canvas-container');
-<<<<<<< HEAD
      context.canvas.width  = document.body.scrollWidth;
     // context.canvas.height = document.body.scrollHeight-2;
-=======
-    context.canvas.width  = document.body.scrollWidth-2;
-    context.canvas.height = document.body.scrollHeight-2;
->>>>>>> f12e479e0531cb397b6f7253d44767d0c53f86dd
   },
 
   initialize: function(){
@@ -40,11 +35,7 @@ var CanvasAutoResize = {
   var xMin = 0;
   var xMax = document.body.scrollWidth;
   var yMin = 0;
-<<<<<<< HEAD
   var yMax = 500;
-=======
-  var yMax = document.body.scrollHeight;
->>>>>>> f12e479e0531cb397b6f7253d44767d0c53f86dd
 
 
   //建立物件與陣列
@@ -52,7 +43,6 @@ var CanvasAutoResize = {
   var rocks = [];
   var particles = [];
 
-<<<<<<< HEAD
   var imgx = new Image();  //生成能够使用背景图案的Image对象
 
   imgx.src = 'header-bg.jpg';//图像文件的路径代入生成的Image对象中
@@ -61,8 +51,6 @@ var CanvasAutoResize = {
 
   
 
-=======
->>>>>>> f12e479e0531cb397b6f7253d44767d0c53f86dd
   function switchGameState(newState){
     currentGameState = newState;
     switch(currentGameState){
@@ -90,7 +78,6 @@ var CanvasAutoResize = {
 
   function fillBackground(){
     //繪製背景
-<<<<<<< HEAD
     
     
     //  context.fillStyle = '#000000';
@@ -106,10 +93,6 @@ var CanvasAutoResize = {
   context.fill();
    
   
-=======
-    context.fillStyle = '#000000';
-    context.fillRect(xMin,yMin,xMax,yMax);
->>>>>>> f12e479e0531cb397b6f7253d44767d0c53f86dd
   }
 
   function gameStateNewGame(){
